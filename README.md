@@ -44,3 +44,11 @@ After cloning the project, enter the repository folder and install any dependenc
 ```
 \nodeTest> npm install -d
 ```
+## Running the app
+
+Start Apache, NodeJS app, and MySQL.
+```
+> [PATH_TO_APACHE]\bin\httpd.exe
+> node app.js
+```
+Go to localhost on browser to see the default Apache HTTP Server page, and go to localhost/node for the NodeJS App. **Your MySQL instance may not have the database and tables required for this to work.**
